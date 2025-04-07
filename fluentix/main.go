@@ -46,34 +46,34 @@ func main() {
 
 	spew.Dump(rt.Result)
 
-	// var s map[string]value_types.Object = make(map[string]value_types.Object)
-	// s["type"] = initializer.MakeType("type")
-	// s["int"] = initializer.MakeType("int")
-	// s["double"] = initializer.MakeType("double")
-	// s["boolean"] = initializer.MakeType("boolean")
-	// s["builtin_function"] = initializer.MakeType("builtin_function")
-	// s["defined_function"] = initializer.MakeType("defined_function")
+	var s map[string]value_types.Object = make(map[string]value_types.Object)
+	s["type"] = initializer.MakeType("type")
+	s["int"] = initializer.MakeType("int")
+	s["double"] = initializer.MakeType("double")
+	s["boolean"] = initializer.MakeType("boolean")
+	s["builtin_function"] = initializer.MakeType("builtin_function")
+	s["defined_function"] = initializer.MakeType("defined_function")
 
-	// var c map[string]bool = make(map[string]bool)
-	// c["type"] = true
-	// c["int"] = true
-	// c["double"] = true
-	// c["boolean"] = true
-	// c["builtin_function"] = true
-	// c["defined_function"] = true
+	var c map[string]bool = make(map[string]bool)
+	c["type"] = true
+	c["int"] = true
+	c["double"] = true
+	c["boolean"] = true
+	c["builtin_function"] = true
+	c["defined_function"] = true
 
-	// var scope scopes.Scope = scopes.Scope{
-	// 	Scope: s,
-	// 	Parent: nil,
-	// 	Constants: c,
-	// }
+	var scope scopes.Scope = scopes.Scope{
+		Scope: s,
+		Parent: nil,
+		Constants: c,
+	}
 
-	// __, _ := rt.Result.(parser.Statement)
-	// rt = interpreter.Evaluate(&__, &scope)
-	// if rt.Error != nil {
-	// 	runtime.DisplayError(*rt.Error)
-	// 	return
-	// }
+	__, _ := rt.Result.(parser.Statement)
+	rt = interpreter.Evaluate(&__, &scope)
+	if rt.Error != nil {
+		runtime.DisplayError(*rt.Error)
+		return
+	}
 
-	// spew.Dump(rt.Result)
+	spew.Dump(rt.Result)
 }
