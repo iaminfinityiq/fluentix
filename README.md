@@ -1,5 +1,5 @@
 **Here are the syntaxes that we have right now**<br><br>
-**1. Data types**
+**1. Data types**<br>
 There are 3 data types available: `int`, `double` and `bool` (`int` and `double` are in range of 64 bits)<br>
 You can do operations with `numbers`, but not `booleans`<br>
 Here is an example of an `int`: -5<br>
