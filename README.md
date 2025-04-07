@@ -1,4 +1,4 @@
-**Here are the syntaxes that we have right now**
+**Here are the syntaxes that we have right now**<br>
 **1. Data types**
 There are 3 data types available: `int`, `double` and `bool` (`int` and `double` are in range of 64 bits)
 You can do operations with `numbers`, but not `booleans`
