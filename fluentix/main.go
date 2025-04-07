@@ -2,10 +2,10 @@ package main
 
 import (
 	"bufio"
-	// "fluentix/backend/initializer"
-	// "fluentix/backend/interpreter"
-	// "fluentix/backend/scopes"
-	// "fluentix/backend/value_types"
+	"fluentix/backend/initializer"
+	"fluentix/backend/interpreter"
+	"fluentix/backend/scopes"
+	"fluentix/backend/value_types"
 	"fluentix/frontend/lexer"
 	"fluentix/frontend/parser"
 	"fluentix/runtime"
