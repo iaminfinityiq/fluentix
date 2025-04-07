@@ -5,7 +5,7 @@ You can do operations with `numbers`, but not `booleans`<br>
 Here is an example of an `int`: -5<br>
 Here is an example of a `double`: 3.14<br><br>
 
-**2. Variables**
+**2. Variables**<br>
 Variables are kind of like a `container`because each of them stores a value.<br>
 To assign a value to a variable, we use:
 ```
@@ -33,7 +33,7 @@ b = 6
 a / b
 ```
 
-**3. Special operators**
+**3. Special operators**<br>
 There are many different kinds of operators we got in Fluentix. I will list all of them just in case:
 - `+`: Addition
 - `-`: Subtraction
@@ -52,12 +52,12 @@ There are many different kinds of operators we got in Fluentix. I will list all 
 The order of operation is performed using `PEMDAS` or `BODMAS`, which follows the basic rules of operation. You can include left parentheses and right parentheses to change the precedence of some operation (`(`, `)`).<br>
 We also got some special operator that you might not have seen in other language (by syntax), which is the absolute value operator and factorial operator<br>
 
-**4. Line seperations**
+**4. Line seperations**<br>
 A Fluentix code consists of many lines, or probably none, but there are some things to note:
 1. Each line could end in a semicolon (`;`) or not.
 2. There can't be multiple statements on a line, expressions are no exception (except for some special cases)
 
-**5. If statements**
+**5. If statements**<br>
 An if statement is denoted by this structure. These syntaxes differ through file extensions.
 - For `.flu` file extensions, we got:
 ```
