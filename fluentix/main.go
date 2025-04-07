@@ -17,7 +17,7 @@ import (
 
 func main() {
 	file, err := os.Open("test.flu")
-	var file_extension string = "fl"
+	var file_extension string = "fl" // change the file extension here
 	if err != nil {
 		fmt.Println(err)
 		return
