@@ -1,4 +1,4 @@
-**Here are the syntaxes that we have right now**<br><br>
+**Here are the syntaxes that we have right now**<br>The indentation is default set to 4 spaces<br>
 **1. Data types**<br>
 There are 3 data types available: `int`, `double` and `bool` (`int` and `double` are in range of 64 bits)<br>
 You can do operations with `numbers`, but not `booleans`<br>
